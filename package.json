@@ -1,0 +1,20 @@
+{
+  "name": "colors-with-generator",
+  "version": "1.0.0",
+  "description": "List of contrasting colors with generator of additional colors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https:/github.com/inoyakaigor/colors.git"
+  },
+  "keywords": [
+    "colors",
+    "generator",
+    "proxy"
+  ],
+  "author": "Igor «InoY» Zvaygintsev <inoyakaigor@ya.ru> (https://inoyakaigor.ru)",
+  "license": "ISC"
+}
