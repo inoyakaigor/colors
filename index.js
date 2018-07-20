@@ -53,7 +53,7 @@ const COLORS = new Proxy(colors, {
                 newColor = undefined
                 continue
             } else {
-                target[prop] = `hsla(${newColor}, 100%, 50%, 1)`
+                newColor = target[prop] = `hsla(${newColor}, 100%, 50%, 1)`
                 break
             }
         }
