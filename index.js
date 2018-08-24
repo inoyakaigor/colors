@@ -45,15 +45,22 @@ const COLORS = new Proxy(colors, {
     get: (target, prop) => {
         if (target[prop]) return target[prop]
         let newColor
+        let hue
+        let lightness
 
-        //TODO: надо добавить рандомизацию яркости Math.ceil(Math.random()*70+15)
+        let i = 0
         while (true) {
-            newColor = Math.ceil(Math.random() * 36) * 10
-            if (target.includes(`hsla(${newColor}, 100%, 50%, 1)`)) {
-                newColor = undefined
+            if (++i > 9999) {
+                throw new Error('Достигнут лимит комбинаций цветов')
+            }
+
+            hue = Math.ceil(Math.random()*36)*10
+            lightness = Math.ceil(Math.random()*70+15)
+            if (target.includes(`hsla(${hue}, 100%, ${lightness}%, 1)`)) {
+                hue = lightness = undefined
                 continue
             } else {
-                newColor = target[prop] = `hsla(${newColor}, 100%, 50%, 1)`
+                newColor = target[prop] = `hsla(${hue}, 100%, ${lightness}%, 1)`
                 break
             }
         }

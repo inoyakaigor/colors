@@ -1,7 +1,7 @@
-# colors
+# Colors
 List of contrasting colors with generator of additional colors
 
-## using
+## Using
 ```
 input COLORS from colors
 
@@ -12,6 +12,9 @@ The Colors lib have predefined list of 20 contrasting colors. Color at index mor
 
 ## Attention
 This lib requires support for ES6 Proxy
+
+## Map
+![Map of colors](Все цвета.png)
 
 ## Contributing
 PR is welcomed!
