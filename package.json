@@ -1,6 +1,6 @@
 {
   "name": "colors-with-generator",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "description": "List of contrasting colors with generator of additional colors",
   "main": "index.js",
   "scripts": {
