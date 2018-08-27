@@ -14,7 +14,7 @@ The Colors lib have predefined list of 20 contrasting colors. Color at index mor
 This lib requires support for ES6 Proxy
 
 ## Map
-![Map of colors](Все цвета.png)
+![Map of colors](Все%20цвета.png)
 
 ## Contributing
 PR is welcomed!
