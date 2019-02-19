@@ -1,3 +1,9 @@
+[![NPM version][NPMIMGURL]][NPMURL] ![REPOSIZE]
+
+[NPMIMGURL]:                https://img.shields.io/npm/v/colors-with-generator.svg?style=flat&longCache=true
+[NPMURL]:                   https://npmjs.org/package/colors-with-generator "npm"
+[REPOSIZE]:                 https://img.shields.io/bundlephobia/min/colors-with-generator.svg
+
 # ❯ Colors
 List of contrasting colors with generator of additional colors
 
